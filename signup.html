@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="signup.html">Sign up Form</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <form>
+            <table cellspacing="25" cellpadding="15">
+                <tr>
+                    <td>
+                        <h1>Application Form</h1>
+                        <p>Fill in your details</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="First Name">First Name*</label><br />
+                        <input type="text" placeholder="Enter first name" id="name" required />
+                    </td>
+                    <td><label for="Last Name">Last Name*</label><br />
+                        <input type="text" placeholder="enter last name" id="name" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender*</label><br />
+                        <select>
+                            <option>Select gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="dob">Date of Birth*</label><br />
+                        <input type="date" name="date" id="date" required />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email*</label><br />
+                        <input type="email" placeholder="Enter email address" id="email" required />
+                    </td>
+                    <td> <label for="education">Education Level*</label><br />
+                        <select>
+                            <option>Select level of education</option>
+                            <option>Bsc</option>
+                            <option>Msc</option>
+                            <option>Diploma</option>
+                            <option>Doctorate(PHD)</option>
+                            <option>High School / Secondary School</option>
+                            <option>Under Graduate</option>
+                            <option>Junior / Middle School</option>
+                            <option>Post Graduate</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="Country">Country*</label><br />
+                        <select>
+                            <option value="" disabled="" selected="">select your country of residence</option>
+                            <option value="Algeria">Algeria</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Belgium">Belgium</option>
+                            <option value="Benin">Benin</option>
+                            <option value="Botswana">Botswana</option>
+                            <option value="Burkina Faso">Burkina Faso</option>
+                            <option value="Cameroon">Cameroon</option>
+                            <option value="Canada">Canada</option>
+                            <option value="China">China</option>
+                            <option value="Denmark">Denmark</option>
+                            <option value="Dominican Republic">Dominican Republic</option>
+                            <option value="Ecuador">Ecuador</option>
+                            <option value="Egypt">Egypt</option>
+                            <option value="Equatorial Guinea">Equatorial Guinea</option>
+                            <option value="Ethiopia">Ethiopia</option>
+                            <option value="Finland">Finland</option>
+                            <option value="France">France</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Ghana">Ghana</option>
+                            <option value="Hong Kong">Hong Kong</option>
+                            <option value="Hungary">Hungary</option>
+                            <option value="Isreal">Isreal</option>
+                            <option value="Italy">Italy</option>
+                            <option value="Jamaica">Jamaica</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Lebanon">Lebanon</option>
+                            <option value="Lesotho">Lesotho</option>
+                            <option value="Liberia">Liberia</option>
+                            <option value="Madagascar">Madagascar</option>
+                            <option value="Malawi">Malawi</option>
+                            <option value="Malaysia">Malaysia</option>
+                            <option value="New Zealand">New Zealand</option>
+                            <option value="Niger">Niger</option>
+                            <option value="Nigeria">Nigeria</option>
+                            <option value="Norway">Norway</option>
+                            <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                            <option value="Saudi Arabia">Saudi Arabia</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                            <option value="Tunisia">Tunisia</option>
+                            <option value="Turkey">Turkey</option>
+                            <option value="United Arab Emirates">United Arab Emirates</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="United States">United States</option>
+                            <option value="Yemen">Yemen</option>
+                            <option value="Zambia">Zambia</option>
+                            <option value="Zimbabwe">Zimbabwe</option>
+                        </select>
+                    </td>
+                    <td> <label for="residence">State/city of residence*</label><br />
+                        <select>
+                            <option>Enter your state of residence</option>
+                            <option>Angola</option>
+                            <option>Nigeria</option>
+                            <option>Ghana</option>
+                            <option>Kenya</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="employement">Employemet Status*</label><br />
+                        <select>
+                            <option value="" disabled="" selected="">Select employment status</option>
+                            <option value="unemployed">Unemployed</option>
+                            <option value="employed">Employed</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                    <td> <label for="phonenumber">Phone Number*</label><br />
+                        <input type="text" placeholder="phone number" id="name" required />
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td> <label for="chooseschool">Choose School*</label><br />
+                        <select>
+                            <option value="" disabled="" selected="">select school</option>
+                            <option value="School of Data">School of Data</option>
+                            <option value="School of Engineering">School of Engineering</option>
+                            <option value="School of Product">School of Product</option>
+                        </select>
+                    </td>
+                    <td> <label for="course">Choose Course of Study*</label><br />
+                        <select>
+                            <option value="" disabled="" selected="">select course</option>
+                            <option value="Backend Engineering">Backend Engineering</option>
+                            <option value="Cloud Engineering">Cloud Engineering</option>
+                            <option value="Data Analysis">Data Analysis</option>
+                            <option value="Data Science">Data Science</option>
+                            <option value="Frontend Engineering">Frontend Enginneering</option>
+                            <option value="Product Design">Product Design</option>
+                            <option value="Product Management">Product Management</option>
+                            <option value="Product Marketing">Product Marketing</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="channel">How did you hear about us?*</label><br />
+                        <select>
+                            <option value="" disabled="" selected="">select channel</option>
+                            <option value="Twitter">Twitter</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="LinkedIn">LinkedIn</option>
+                            <option value="Family/Friend/Colleague">Family/Friend/Colleague</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </td>
+                    <td> <label for="First Name">Scholarship/discount code(optional)</label><br />
+                        <input type="text" placeholder="Scholarship or student ID or discount code" id="name"
+                            required />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>By clicking continue, I agree to <a href="">Terms of Use</a> and acknowledge that I
+                            have read the <a href="">Privacy Policy</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Proceed" size="40px"></td>
+                </tr>
+
+                <tr>
+                    <td>Already have an account? <a href="">Sign in</a></td>
+                </tr>
+            </table>
+        </form>
+
+    </main>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyCnjKgT-tVHK_uLbSw-XefI3WO_MkHzxwo",
+            authDomain: "altschool-be936.firebaseapp.com",
+            projectId: "altschool-be936",
+            storageBucket: "altschool-be936.appspot.com",
+            messagingSenderId: "856360859323",
+            appId: "1:856360859323:web:43f53518890b24b0559b9e",
+            measurementId: "G-SGD0G782C0"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</body>
+
+</html>
